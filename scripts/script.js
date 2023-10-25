@@ -44,9 +44,11 @@ function myPars(result) {
     console.log(result);
 
     if (result.length < 1) {
-        console.log('No person found!')
+        console.log('No person found!');
+        output.innerHTML = '<p>No person found!</p>';
     }
     else {
+        output.innerHTML = '';
         result.forEach(person => {
 
             console.log(person);
@@ -81,5 +83,5 @@ function myPrint(name, height, mass, gender, hair_color) {
         <strong>Hair color:</strong> ${hair_color}
     </p></div>`;
 
-    output.innerHTML = myHtml;
+    output.innerHTML += myHtml;
 }
