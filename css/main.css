@@ -1,6 +1,7 @@
 body {
     margin: 3rem;
     padding: 0.5rem;
+    background-image: url(../images/starry-night-sky.jpg);
 }
 
 .header {
@@ -15,9 +16,16 @@ body {
 }
 
 .blob {
-    background-color: white;
-    padding: 0.5rem 0px;
+    background-color: rgba(89, 52, 0, 0.45);
+    padding: 0.5rem 0.75rem;
     margin: 15px;
+    color: #ffffff;
+}
+
+.listItem {
+    background-color: rgba(245, 245, 220, 0.5);
+    padding: 0.5rem 0.75rem;
+    margin: 0.75rem 0px;
 }
 
 .footer {

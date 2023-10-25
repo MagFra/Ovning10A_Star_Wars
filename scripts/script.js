@@ -75,7 +75,7 @@ function myPrint(name, height, mass, gender, hair_color) {
 
     console.log(`name: ${name}, height: ${height}, mass: ${mass}, gender: ${gender}, hair_color: ${hair_color}`);
 
-    let myHtml = `<div><p>
+    let myHtml = `<div class="listItem"><p>
         <strong>Name:</strong> ${name}<br>
         <strong>Height:</strong> ${height}<br>
         <strong>Mass:</strong> ${mass}<br>
